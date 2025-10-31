@@ -116,6 +116,22 @@ section h3 {
   font-size: 14px;
 }
 
+/* Remove button/icon next to each participant */
+.remove-participant {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 4px;
+  color: #c62828; /* red-ish */
+}
+
+.remove-participant:hover {
+  transform: scale(1.05);
+}
+
 .form-group {
   margin-bottom: 15px;
 }
