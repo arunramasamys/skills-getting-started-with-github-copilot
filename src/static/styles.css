@@ -81,6 +81,12 @@ section h3 {
   color: #555;
 }
 
+.activity-card ul li {
+  margin-bottom: 5px;
+  color: #333;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
