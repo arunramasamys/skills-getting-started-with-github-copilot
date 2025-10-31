@@ -29,8 +29,8 @@ header h1 {
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid; /* changed from flex to grid so grid-template-columns works */
+  grid-template-columns: 1fr; /* single column by default (mobile) */
   gap: 30px;
   justify-content: center;
 }
